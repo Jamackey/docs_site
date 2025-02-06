@@ -116,166 +116,22 @@ plugins:
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 theme:
-
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The "name" option is where you define the theme to use.                                              |
-  # |                                                                                                      |
-  # | Note that not all themes are included by default and will require you to install them first.         |
-  # | The Material theme is one of them. See the "Read More" link for instructions on how to install it.   |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/getting-started/                                       |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
   name: 'material'
-  
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The Material theme allows "theme-extsnions", meaning that you can override parts of it by either     |
-  # | overriding a particular file, or only parts (blocks) of it.                                          |
-  # |                                                                                                      |
-  # | If you want to override parts of Material, uncomment the "custom_dir" option below and set the       |
-  # | folder (relative to the mkdocs.yml file) where your theme extensions will be located at.             |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://www.mkdocs.org/user-guide/configuration/#custom_dir                                        |
-  # | - https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme                     |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
   #custom_dir: 'theme'
-  
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The "favicon" option allows you to set your own image/icon to use in the browser-tab.                |
-  # |                                                                                                      |
-  # | Pretty much all image types are supported, but it's recommended to use a PNG, SVG or ICO image for   |
-  # | the favicon.                                                                                         |
-  # |                                                                                                      |
-  # | The directory is relative to the "docs_dir".                                                         |
-  # |                                                                                                      |
-  # | Example: Having a favicon.png in docs/assets/images will result in the "favicon" setting showing     |
-  # |          'assets/images/favicon.png'                                                                 |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#favicon             |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
   #favicon: 'assets/images/favicon.png'
-  
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The "palette" section is a Material option and allows you to define specific style options such as   |
-  # | Color-Scheme, and primary and secondary Color.                                                       |
-  # |                                                                                                      |
-  # | You can also define multiple palettes that can have different Color Schemses and primary and/or      |
-  # | secondary Colors.                                                                                    |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/                             |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle        |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
   palette:
-  
-    # +----------------------------------------------------------------------------------------------------+
-    # |                                                                                                    |
-    # | The "scheme" option is used to define the Color Scheme used by Material.                           |
-    # |                                                                                                    |
-    # | Material offers a "default" and a "slate" scheme. "default" is obviously the default (bright)      |
-    # | Color scheme while "slate" is the native dark theme from Material.                                 |
-    # |                                                                                                    |
-    # | Read More:                                                                                         |
-    # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-scheme              |
-    # |                                                                                                    |
-    # +----------------------------------------------------------------------------------------------------+
     scheme: 'slate'
-    
-    # +----------------------------------------------------------------------------------------------------+
-    # |                                                                                                    |
-    # | "primary" is used to set the main color of the Material Theme.                                     |
-    # |                                                                                                    |
-    # | The primary color is used on the top banner of the page but also for things like the link color.   |
-    # |                                                                                                    |
-    # | Read More:                                                                                         |
-    # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color             |
-    # |                                                                                                    |
-    # +----------------------------------------------------------------------------------------------------+
-    primary: 'indigo'
-    
-    # +----------------------------------------------------------------------------------------------------+
-    # |                                                                                                    |
-    # | The "accent" is used for moments such as hovering over links.                                      |
-    # |                                                                                                    |
-    # | Read More:                                                                                         |
-    # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color              |
-    # |                                                                                                    |
-    # +----------------------------------------------------------------------------------------------------+
-    accent: 'indigo'
-    
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | With the "font" option can you set a different font to use.                                          |
-  # |                                                                                                      |
-  # | Material supports all Google fonts, but you can also define your own ones if you choose so.          |
-  # |                                                                                                      |
-  # | The "text" option is used for the regular font while "code" is used for code blocks, inline code and |
-  # | similar.                                                                                             |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/                              |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
+    primary: 'teal'
+    accent: 'cyan'
+
   #font:
   #  text: 'Roboto'
   #  code: 'Roboto Mono'
-  
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | Material suppors more than 40 different languages which you can set using the "language" option      |
-  # | below.                                                                                               |
-  # |                                                                                                      |
-  # | The default language is "en" (English).                                                              |
-  # |                                                                                                      |
-  # | You can also enable/set a "selector" to allow switching between languages.                           |
-  # | See the "alternate" option in the "extra" section below for more information on this topic.          |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/                           |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
+
   #language: 'en'
-  
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The "direction" option is commonly used together with the "language" option.                         |
-  # |                                                                                                      |
-  # | It allows you to change the text direction from the default left-to-right (ltr) to right-to-left     |
-  # | (rtl) which is used in certain languages.                                                            |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#directionality            |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
+
   #direction: 'ltr'
   
-  # +------------------------------------------------------------------------------------------------------+
-  # |                                                                                                      |
-  # | The "features" option allows you to enable specific features of Material, by adding them to the      |
-  # | list.                                                                                                |
-  # |                                                                                                      |
-  # | Features are in the format <category>.<name>. As an example, the feature to enable tabs is called    |
-  # | navigation.tabs.                                                                                     |
-  # |                                                                                                      |
-  # | The list below contains all known features of Material.                                              |
-  # |                                                                                                      |
-  # | Features marked with a * are currently Insiders-only. (Last update: 11th December 2021)              |
-  # | https://squidfunk.github.io/mkdocs-material/insiders/                                                |
-  # |                                                                                                      |
-  # | Read More:                                                                                           |
-  # | - https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/                           |
-  # |                                                                                                      |
-  # +------------------------------------------------------------------------------------------------------+
   features:
   # Announce
   #
