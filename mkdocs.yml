@@ -30,7 +30,7 @@
 site_name: Jamackey's Docs
 site_description: 'A repository for relevant documents'
 site_author: 'Jamackey'
-#site_url: 'https://www.andre601.ch/mkdocs-template' # Uncomment to set a canonical URL
+site_url: 'https://docs.nutlab.co.uk' # Uncomment to set a canonical URL
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
