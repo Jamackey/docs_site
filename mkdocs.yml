@@ -96,7 +96,10 @@ nav:
   - Welcome: index.md
   - Plants: 
     - Big Daddy Tomato: plants/tomato.md
+    - Black Opal Tomato: plants/black-opal-tomato.md
+    - Broad Bean 'The Sutton': plants/broad-bean-the-sutton.md
     - Moneymaker Aubergine: plants/aubergine.md
+    - Spicy Leaf Mix: plants/spicy-leaf.md
 
 
 plugins:
@@ -104,6 +107,9 @@ plugins:
       redirect_maps:
         'bdt.md': 'plants/tomato.md'
         'mma.md': 'plants/aubergine.md'
+        'slm.md': 'plants/spicy-leaf.md'
+        'bot.md': 'plants/black-opal-tomato.md'
+        'bbs.md': 'plants/broad-bean-the-sutton.md'
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
