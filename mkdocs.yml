@@ -95,11 +95,14 @@ repo_url: https://github.com/Jamackey/docs_site
 nav:
   - Welcome: index.md
   - Plants: 
-    - Big Daddy Tomato: plants/tomato.md
-    - Black Opal Tomato: plants/black-opal-tomato.md
-    - Broad Bean 'The Sutton': plants/broad-bean-the-sutton.md
-    - Moneymaker Aubergine: plants/aubergine.md
-    - Spicy Leaf Mix: plants/spicy-leaf.md
+    - Tomatoes:
+      - Big Daddy Tomato: plants/tomato.md
+      - Black Opal Tomato: plants/black-opal-tomato.md
+    - Salad:
+      - Spicy Leaf Mix: plants/spicy-leaf.md
+    - Other:
+      - Broad Bean 'The Sutton': plants/broad-bean-the-sutton.md
+      - Moneymaker Aubergine: plants/aubergine.md
 
 
 plugins:
@@ -111,12 +114,12 @@ plugins:
         'slm.md': 'plants/spicy-leaf.md'
         'bot.md': 'plants/black-opal-tomato.md'
         'bbs.md': 'plants/broad-bean-the-sutton.md'
-        # New/short redirects
-        '00.md': 'plants/tomato.md'
-        '01.md': 'plants/aubergine.md'
-        '02.md': 'plants/spicy-leaf.md'
-        '03.md': 'plants/black-opal-tomato.md'
-        '04.md': 'plants/broad-bean-the-sutton.md'
+        # # New/short redirects
+        # '00.md': 'plants/tomato.md'
+        # '01.md': 'plants/aubergine.md'
+        # '02.md': 'plants/spicy-leaf.md'
+        # '03.md': 'plants/black-opal-tomato.md'
+        # '04.md': 'plants/broad-bean-the-sutton.md'
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -159,10 +162,10 @@ theme:
   #- navigation.expand      # Expand all collapsable sections.
   #- navigation.instant     # Instant loading pages.
   #- navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
-  #- navigation.sections    # Render top sections as groups.
+  - navigation.sections    # Render top sections as groups.
   - navigation.tabs         # Render top sections as tabs at the top.
   #- navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
-  #- navigation.top         # Adds a "Back to top" that is shown when scrolling up.
+  - navigation.top         # Adds a "Back to top" that is shown when scrolling up.
   #- navigation.tracking    # Updates the url with highlighted section anchor.
   
   # Search
