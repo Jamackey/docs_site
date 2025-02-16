@@ -108,11 +108,18 @@ nav:
 plugins:
   - redirects:
       redirect_maps:
+        # Legacy redirects
         'bdt.md': 'plants/tomato.md'
         'mma.md': 'plants/aubergine.md'
         'slm.md': 'plants/spicy-leaf.md'
         'bot.md': 'plants/black-opal-tomato.md'
         'bbs.md': 'plants/broad-bean-the-sutton.md'
+        # New/short redirects
+        '00.md': 'plants/tomato.md'
+        '01.md': 'plants/aubergine.md'
+        '02.md': 'plants/spicy-leaf.md'
+        '03.md': 'plants/black-opal-tomato.md'
+        '04.md': 'plants/broad-bean-the-sutton.md'
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
