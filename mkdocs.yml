@@ -100,9 +100,11 @@ nav:
       - Black Opal Tomato: plants/black-opal-tomato.md
     - Salad:
       - Spicy Leaf Mix: plants/spicy-leaf.md
+      - Purple Broccoli: plants/broccoli-purple.md
     - Other:
       - Broad Bean 'The Sutton': plants/broad-bean-the-sutton.md
       - Moneymaker Aubergine: plants/aubergine.md
+      - Squash: plants/squash.md
 
 
 plugins:
@@ -120,6 +122,8 @@ plugins:
         '02.md': 'plants/spicy-leaf.md'
         '03.md': 'plants/black-opal-tomato.md'
         '04.md': 'plants/broad-bean-the-sutton.md'
+        '05.md': 'plants/broccoli-purple.md'
+        '06.md': 'plants/squash.md'
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
