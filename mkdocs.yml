@@ -286,6 +286,7 @@ theme:
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 extra:
+  cname: docs.nutlab.co.uk
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The social section allows you to set a list of entries which would be displayed in the footer of the |
