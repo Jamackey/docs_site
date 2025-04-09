@@ -101,6 +101,7 @@ nav:
     - Salad:
       - Spicy Leaf Mix: plants/spicy-leaf.md
       - Purple Broccoli: plants/broccoli-purple.md
+      - Cucumber: plants/cucumber.md
     - Other:
       - Broad Bean 'The Sutton': plants/broad-bean-the-sutton.md
       - Moneymaker Aubergine: plants/aubergine.md
@@ -124,6 +125,7 @@ plugins:
         '04.md': 'plants/broad-bean-the-sutton.md'
         '05.md': 'plants/broccoli-purple.md'
         '06.md': 'plants/squash.md'
+        '07.md': 'plants/cucumber.md'
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
